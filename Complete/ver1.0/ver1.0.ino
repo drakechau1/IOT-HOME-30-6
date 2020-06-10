@@ -3,7 +3,7 @@
 #include <Wire.h>
 LiquidCrystal_I2C lcd(0x27,16,2);
 
-// --------------------- SETUP STATUS --------------------- //
+// --------------------- SETUP V --------------------- //
 #define DHT_pin 14                 // Pin out cua cam bien Nhiet do
 #define DHT_type DHT11             // Loai DHT11 hoac DHT22
 #define PIR_pin 16                 // Chon ngo tin hieu vao cho PIR
